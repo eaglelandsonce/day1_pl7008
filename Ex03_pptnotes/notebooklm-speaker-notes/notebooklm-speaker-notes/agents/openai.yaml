@@ -1,0 +1,14 @@
+interface:
+  display_name: NotebookLM Speaker Notes
+  short_description: Write speaker notes for image-based slides
+  default_prompt: Use $notebooklm-speaker-notes to add speaker notes to every slide
+    in this PowerPoint.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
