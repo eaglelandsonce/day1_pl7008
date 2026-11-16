@@ -1,0 +1,5 @@
+This course introduces PL-7008 through hands-on work with Microsoft Copilot Studio, with a major emphasis on using reusable AI skills to automate business processes. Learners apply skills in Excel to process spreadsheet data, in PowerPoint to create speaker notes, and in SharePoint to turn source documents into executive briefs. Live Copilot Studio workflow demonstrations show how to coordinate multi-step work, pass outputs between agents, and build in human review.
+
+Learners design, build, test, and improve Copilot Studio agents using knowledge sources, tools, actions, variables, and generative orchestration. They explore how to move from a single chatbot to a multi-agent system in which an orchestrator delegates work to specialist agents. 
+
+By the end of the course, learners will be able to build and test Copilot Studio agents, connect them to enterprise knowledge and actions, apply reusable skills to everyday Microsoft 365 tasks, and design multi-agent workflows with human review where needed.

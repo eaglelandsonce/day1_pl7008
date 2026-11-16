@@ -1,0 +1,3 @@
+Here's a good skill. Many times, I create slides in NotebookLM, and they don't have PowerPoint notes and are typically just images. I would like the skill to read the PowerPoint slides, understand the graphics and words in the images, and create notes for each slide in the PowerPoint slide deck. Can you build this skill? 
+
+Then create the skill.
