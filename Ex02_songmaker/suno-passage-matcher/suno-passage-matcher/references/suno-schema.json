@@ -1,0 +1,31 @@
+{
+  "prompt_template": "{era} {region} {genre_primary} fused with {genre_secondary}, {key} {mode}, {progression}, {bpm} {meter} {groove}, featuring {instrument_lead} ({articulation}) and {instrument_backing}, {vocal_gender} {vocal_timbre} {vocal_delivery} ({vocal_fx}), {production} with {ambience}, {mood}",
+  "constraints": {
+    "max_style_characters": 200,
+    "recommended_axes_per_prompt": 6,
+    "priority_order": ["genre_primary", "mood", "bpm", "key", "instrument_lead", "vocal_timbre", "production"]
+  },
+  "axes": {
+    "era": ["1920s", "1950s", "1960s", "1970s", "1980s", "1990s", "Y2K", "2010s", "Futuristic"],
+    "region": ["Appalachian", "Mississippi Delta", "New Orleans", "Motown", "West Coast", "UK Garage", "French Touch", "Berlin", "Nordic", "Balkan", "Afro-Cuban", "Brazilian", "Tokyo", "Middle Eastern", "West African"],
+    "genre_primary": ["Synthwave", "Deep House", "Liquid DnB", "Lo-Fi Hip-Hop", "Boom Bap", "Trap", "Midwest Emo", "Post-Punk", "Shoegaze", "Symphonic Metal", "Stoner Rock", "Nu-Disco", "Neo-Soul", "Dark Americana", "Indie Folk", "Bossa Nova", "Jazz Noir", "Epic Orchestral", "Afrobeats", "Amapiano", "Dungeon Synth"],
+    "genre_secondary": ["Industrial", "Psychedelic", "Ambient", "Orchestral", "Chiptune", "Gospel", "Math Rock", "Dub", "Flamenco", "Cyberpunk", "Baroque", "Bluegrass", "Phonk"],
+    "key": ["C Major", "G Major", "D Major", "A Major", "E Major", "F Major", "Bb Major", "Eb Major", "A minor", "E minor", "D minor", "G minor", "C minor", "F# minor", "C# minor", "B minor"],
+    "Tuning": ["440 Hz", "432 Hz tuning", "Drop D tuning", "Drop C tuning", "Half-step down Eb", "DADGAD tuning", "Open G tuning"],
+    "mode": ["Ionian", "Dorian mode", "Phrygian mode", "Phrygian Dominant", "Lydian mode", "Mixolydian mode", "Aeolian natural minor", "Harmonic minor", "Minor pentatonic", "Blues scale", "Hirajoshi scale"],
+    "progression": ["I-V-vi-IV progression", "ii-V-I jazz turnaround", "i-VI-III-VII progression", "Andalusian cadence", "Royal Road IV-V-iii-vi", "12-bar blues", "pedal point bass", "ostinato loop"],
+    "bpm": ["65 BPM", "75 BPM", "85 BPM", "95 BPM", "105 BPM", "115 BPM", "124 BPM", "135 BPM", "145 BPM", "160 BPM", "174 BPM"],
+    "meter": ["4/4 time", "3/4 waltz", "6/8 ballad", "12/8 slow blues", "5/4 odd meter", "7/8 math meter", "polyrhythmic"],
+    "groove": ["four-on-the-floor", "syncopated breakbeat", "halftime feel", "J Dilla drunken swing", "laid-back pocket", "quantized grid", "3-2 son clave", "Purdie shuffle", "motorik pulse", "16th-note hi-hat rolls"],
+    "instrument_lead": ["Fender Rhodes", "Steinway Grand Piano", "Hammond B3 Organ", "Minimoog Synth", "Acid TB-303", "Stratocaster Guitar", "Overdriven Les Paul", "Pedal Steel Guitar", "Nylon Acoustic Guitar", "5-String Banjo", "Solo Cello", "Appalachian Fiddle", "Muted Trumpet", "Tenor Saxophone", "Shakuhachi Flute", "Oud", "Guzheng"],
+    "articulation": ["fingerstyle Travis picking", "palm-muted chugs", "tremolo picking", "bottleneck slide", "slap and pop", "pizzicato", "spiccato", "staccato stabs", "arpeggiated", "filter-swept", "portamento glide"],
+    "instrument_backing": ["808 sub-bass", "upright walking bass", "fretless bass", "Reese bass", "Amapiano log drum", "jazz brush drums", "TR-909 drum machine", "gated reverb snare", "taiko war drums", "lush string quartet", "brass section", "analog Juno pads"],
+    "vocal_gender": ["Female Soprano", "Female Alto", "Male Tenor", "Male Baritone", "Male Bass", "Androgynous", "Male-Female Duet", "Instrumental only"],
+    "vocal_timbre": ["breathy", "raspy", "gravelly", "silky", "smoky", "ethereal", "angelic", "gritty", "monotone", "booming", "fragile"],
+    "vocal_delivery": ["intimate close-mic", "soulful belting", "operatic vibrato", "melismatic runs", "fast chopper rap", "spoken word narration", "whispered", "screamed", "gregorian chant", "gospel choir harmony"],
+    "vocal_fx": ["dry vocal", "shimmer reverb", "slapback echo", "heavy auto-tune", "robotic vocoder", "telephone filter", "double-tracked", "pitched-up vocal chops"],
+    "production": ["1970s analog tape saturation", "lo-fi cassette warble", "dusty vinyl crackle", "Phil Spector wall of sound", "1980s gated reverb", "intimate dry studio", "cathedral reverb", "stadium live mix", "binaural 3D audio", "heavy sidechain compression"],
+    "ambience": ["rain on windowpane", "distant thunder", "vinyl needle drop", "smoky bar chatter", "campfire crackle", "night crickets", "subway clatter", "no ambience"],
+    "mood": ["melancholic", "euphoric", "brooding", "nostalgic", "triumphant", "haunting", "hypnotic", "gritty", "serene", "cyberpunk dystopian", "playful", "sensual", "anthemic"]
+  }
+}
